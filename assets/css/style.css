@@ -1,0 +1,228 @@
+#navbar {
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    height:5%;
+    padding-left:2%;
+    background-color: rgb(15, 119, 255);
+}
+
+#navbar a{
+    color:white;
+    font-family:Arial;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color:rgb(15, 119, 255);
+    color:purple;
+}
+
+#logo {
+    flex:0.4;
+    order:1;
+}
+
+#logo img{
+    width:60px;
+    height:60px;
+}
+
+.navitem-1 {
+    font-size:20px;
+    flex:0.6;
+    order:2;
+}
+
+.navitem-2 {
+    font-size:20px;
+    flex:0.6;
+    order:3;
+}
+.navitem-3 {
+    font-size:20px;
+    flex:0.6;
+    order:4;
+}
+
+.navitem-4 {
+    font-size:20px;
+    flex:1.2;
+    order:5;
+}
+
+.navitem-5 {
+    font-size:20px;
+    flex:0.6;
+    order:5;
+}
+
+#profile {
+    flex:1;
+    order:6;
+
+}
+
+.navitem-1, .navitem-2, .navitem-3, .navitem-4, .navitem-5{
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:20px;
+}
+
+/* .navitem-1 a, .navitem-2 a, .navitem-3 a, .navitem-4 a{
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:10px;
+} */
+
+
+.navbar-items {
+    display:flex;
+    flex-basis:100%;   
+}
+
+#profile {
+    display:flex;
+    justify-content:center;
+    padding-left:2%;
+    padding-right:2%; 
+}
+
+#profile div {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+
+#username-and-schoolID p{
+    color:white;
+    font-family:Arial;
+    text-decoration: none;
+    padding-left:10px;
+}
+
+.profile-items {
+    display:flex;
+    flex-direction: row;
+    align-content:center;
+    /* flex-basis:10%;
+     */
+}
+
+/* #username div, #schoolID div{
+    border:1px #ccc solid;
+    padding:10px;
+    
+} */
+
+#username-and-schoolID div{
+    display:flex;
+    /* flex-direction:column; */
+    align-items: center;
+}
+
+#profile-image img{
+    
+    width:36px;
+    height:36px;
+    border-radius:50%;
+}
+
+#profile-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display:flex;
+    flex-direction:row;
+
+}
+
+.container div {
+    padding-left:6%;
+    padding-right:7%;
+    padding-top:2%;
+}
+
+.welcome {
+    flex:1;
+    order:1;
+}
+
+.welcomevideo {
+    flex:1;
+    order:2;
+}
+
+.welcomevideo iframe{
+    padding-top:6%;
+}
+
+.welcometext {
+    font-family:Arial;
+    padding-bottom:10px;
+}
+
+#welcometo strong{
+    color:black;
+    font-size:24px;
+}
+
+.welcometext h1 {
+    font-size:40px;
+}
+
+.containerButtons {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.containerButtons button{
+    background-color: lightgrey;
+    color:black;
+    border: none;
+    padding: 6px 8px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius:0;
+    font-weight: 600;
+}
+
+.processlinks{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.containerButtons {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.needsanalysis, .problembrief, .designdev{
+    background-color: rgb(1, 183, 255);
+    color:white;
+    border: none;
+    padding: 100px 100px;
+    margin:50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius:4px;
+    font-weight: 600;
+}
+
+.needsanalysis h2, .problembrief h2, .designdev h2{
+    color:white;
+    font-family:Arial;
+    text-decoration: none;
+}
+
+.needsanalysis h2:hover, .problembrief h2:hover, .designdev h2:hover {
+    color:purple;
+}
