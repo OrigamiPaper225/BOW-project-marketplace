@@ -7,6 +7,10 @@
     background-color: rgb(15, 119, 255);
 }
 
+body {
+    margin: 0px;
+ }
+
 #navbar a{
     color:white;
     font-family:Arial;
@@ -31,25 +35,60 @@
 .navitem-1 {
     font-size:20px;
     flex:0.6;
-    order:2;
+    order:3;
 }
 
 .navitem-2 {
     font-size:20px;
     flex:0.6;
-    order:3;
+    order:4;
 }
 .navitem-3 {
     font-size:20px;
     flex:0.6;
-    order:4;
+    order:5;
 }
 
 .navitem-4 {
     font-size:20px;
-    flex:1.2;
-    order:5;
+    flex:3;
+    order:2;
+    position: relative;
+    min-width: 100px;
+    
 }
+
+.search {
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 25px;
+    width: 80%;
+    padding: 2px 23px 2px 30px;
+    outline: 0;
+    background-color: #f5f5f5;
+}
+
+.search-icon {
+    position: absolute;
+    top: 24px;
+    left: 25px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.clear-icon {
+    position: absolute;
+    top: 30px;
+    right: 90px;
+    width: 10px;
+    cursor: pointer;
+}
+
+.search:hover, .search:focus {
+    border: 1.5px solid #009688;
+    background-color: white;
+}
+
 
 .navitem-5 {
     font-size:20px;
