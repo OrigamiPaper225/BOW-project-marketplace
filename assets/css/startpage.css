@@ -1,0 +1,26 @@
+body {
+    opacity: 1;
+    background-color:#0085ff;
+    transition-duration: 2s;
+    transition-property: opacity;
+    display:flex;
+    min-height: 90vh;
+    align-items: center;
+    justify-content: center;
+}
+
+body.fade {
+    opacity: 0;
+}
+
+/* .container button {
+    border:none;
+    width:100%;
+    height:100%;
+    background-color:#0085ff;
+} */
+  
+.body img {
+    width:auto;
+    height:auto;
+}
