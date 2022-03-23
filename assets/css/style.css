@@ -4,7 +4,7 @@
     justify-content:flex-start;
     height:5%;
     padding-left:2%;
-    background-color: rgb(15, 119, 255);
+    background-color: #0085ff;
 }
 
 body {
@@ -18,7 +18,7 @@ body {
 }
 
 #navbar a:hover {
-    background-color:rgb(15, 119, 255);
+    background-color:#0085ff;
     color:purple;
 }
 
@@ -181,7 +181,7 @@ body {
 
 .container div {
     padding-left:6%;
-    padding-right:7%;
+    /* padding-right:7%; */
     padding-top:2%;
 }
 
@@ -204,6 +204,11 @@ body {
     padding-bottom:10px;
 }
 
+#description {
+    color:black;
+    font-size:20px;
+}
+
 #welcometo strong{
     color:black;
     font-size:24px;
@@ -223,10 +228,10 @@ body {
     background-color: lightgrey;
     color:black;
     border: none;
-    padding: 6px 8px;
+    padding: 18px 24px;
     text-align: center;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 22px;
     border-radius:0;
     font-weight: 600;
 }
