@@ -20,6 +20,10 @@ body {
     margin: 0px;
  }
 
+ html {
+    overflow-y: scroll;
+ }
+
  .overlord {
     /* overflow-y: hidden; overflow-x:scroll; */
     overflow-x:scroll;
@@ -268,17 +272,20 @@ body {
 
 .processlinks{
     display:flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-flow:row wrap;
+    flex-basis:max-content;
+    align-items:center;
+    justify-content: center;   
 }
 
 .containerButtons {
     display:flex;
     flex-direction: row;
     justify-content: center;
+
 }
 
-.needsanalysis, .problembrief, .designdev{
+.needsanalysis, .problembrief, .designdev, .sub1, .sub2, .sub3 {
     background-color: rgb(1, 183, 255);
     color:white;
     border: none;
@@ -289,15 +296,49 @@ body {
     font-size: 16px;
     border-radius:4px;
     font-weight: 600;
+
 }
 
-.needsanalysis h2, .problembrief h2, .designdev h2{
+.needsanalysis {
+    order:1;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.problembrief {
+    order:2;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.designdev {
+    order:3;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.sub1 {
+    order:4;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.sub2 {
+    order:5;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.sub3 {
+    order:6;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.needsanalysis h2, .problembrief h2, .designdev h2, .sub1 h2, .sub2 h2, .sub3 h2{
     color:white;
     font-family:Arial;
     text-decoration: none;
 }
 
-.needsanalysis h2:hover, .problembrief h2:hover, .designdev h2:hover {
+.needsanalysis h2:hover, .problembrief h2:hover, .designdev h2:hover  .sub1 h2:hover, .sub2 h2:hover, .sub3 h2:hover{
     color:purple;
 }
 
