@@ -11,6 +11,10 @@ body {
     margin: 0px;
  }
 
+ html {
+    overflow-y: scroll; overflow-x:hidden;
+ }
+
 #navbar a{
     color:white;
     font-family:Arial;
@@ -270,4 +274,151 @@ body {
 
 .needsanalysis h2:hover, .problembrief h2:hover, .designdev h2:hover {
     color:purple;
+}
+
+.recs {
+    display:flex;
+    flex-direction:column;
+    padding-left:8%;
+    /* padding-right:7%; */
+    padding-top:2%;
+
+}
+
+.projectcard div {
+    width:30%;
+
+}
+
+.testbox  {
+    width:25%;
+    background-color: white;
+    border: 1px solid grey;
+    box-shadow: 5px 4px 8px grey;
+    margin-right:80px;
+}
+
+.testboxes {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.categorybutton {
+    display:flex;
+    flex-direction: row;
+    
+}
+
+.testbox h3 {
+    padding-left:16px;
+}
+
+.recstext  {
+    margin-bottom:20px;
+}
+
+.categorybutton button{
+    background-color: lightgrey;
+    color:black;
+    border: none;
+    padding: 5px 8px;
+    margin-left:16px;
+    margin-right:16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius:0;
+    cursor: pointer;
+}
+
+.location {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left:16px;
+    margin-right:16px;
+}
+
+
+.locationicon img{
+    width:20px;
+    height:20px;
+    border-radius:50%;
+}
+
+.recs p,h1,h2,h3{
+    color:black;
+    font-size:24px;
+    font-family:Arial;
+    text-decoration: none;
+}
+
+.collegename p{
+    font-size:16px;
+}
+
+.memberslist {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left:16px;
+    margin-bottom:5px;
+    width:110%;
+}
+
+
+
+#profile-image {
+
+}
+
+#membersnames p{
+    font-size:16px;
+    margin-left:16px;
+}
+
+.viewbutton {
+    /* position:absolute;
+    left:29%; */
+    margin-left:15%;
+}
+
+.viewbutton button{
+    background-color: white;
+    color:black;
+    border: 2px solid black;
+    padding: 5px 12px;
+    margin-left:16px;
+    margin-right:16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius:0;
+    cursor: pointer;
+}
+
+.sitefooter {
+    position:relative;
+    min-height:200px;
+}
+
+.footercontent {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top:70px;
+    
+}
+
+.footlogo {
+    margin-right:20px;
+
+}
+
+.footlogo img{
+    width:60px;
+    height:60px;
 }
