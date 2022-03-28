@@ -1,13 +1,20 @@
 #navbar {
     display:flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     flex-direction: row;
     justify-content:flex-start;
-    height:5%;
+    height:7.5%;
     padding-left:2%;
     background-color: #3985F7;
-    /* position:fixed; */
 }
 
+/* #header div{
+    position:fixed;
+    
+} */
 
 body {
     margin: 0px;
@@ -33,28 +40,6 @@ body {
     transform: rotateX(180deg);
 }
   
-/* Designing for scroll-bar */
-::-webkit-scrollbar {
-    width: 5px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-    background: gainsboro;
-    border-radius: 5px;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: black;
-    border-radius: 5px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: #555;
-}
-
 #navbar a{
     color:white;
     font-family:Arial;
@@ -62,7 +47,6 @@ body {
 }
 
 #navbar a:hover {
-    background-color:#3985F7;
     color:purple;
 }
 
@@ -220,6 +204,7 @@ body {
 .container {
     display:flex;
     flex-direction:row;
+    padding-top:5%;
 
 }
 
