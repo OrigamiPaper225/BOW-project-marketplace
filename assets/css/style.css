@@ -5,15 +5,55 @@
     height:5%;
     padding-left:2%;
     background-color: #3985F7;
+    /* position:fixed; */
 }
+
 
 body {
     margin: 0px;
  }
 
- /* html {
-    overflow-y: scroll; overflow-x:hidden;
- } */
+ .overlord {
+    /* overflow-y: hidden; overflow-x:scroll; */
+    overflow-x:scroll;
+    height:auto;
+    width:auto;
+    background-color: lightgrey;
+    transform: rotateX(180deg);
+ }
+
+ .testboxes {
+
+     /* position:fixed; */
+     transform: rotateX(180deg);
+ }
+
+ 
+ .Flipped, .Flipped .Content{
+    transform: rotateX(180deg);
+}
+  
+/* Designing for scroll-bar */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: gainsboro;
+    border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
 
 #navbar a{
     color:white;
@@ -289,13 +329,50 @@ body {
     width:30%;
 
 }
+.projectname {
+    margin-left:16px;
+}
 
-.testbox  {
+#testbox1,#testbox2,#testbox3,#testbox4,#testbox5,#testbox6  {
     width:25%;
     background-color: white;
     border: 1px solid grey;
     box-shadow: 5px 4px 8px grey;
     margin-right:80px;
+}
+
+#testbox1 {
+    order:1;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+#testbox2 {
+    order:2;
+    flex-grow: 0;
+    flex-shrink: 0;
+
+
+}
+#testbox3 {
+    order:3;
+    flex-grow: 0;
+    flex-shrink: 0;
+
+}
+#testbox4 {
+    order:4;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+#testbox5 {
+    order:4;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+#testbox6 {
+    order:4;
+    flex-grow: 0;
+    flex-shrink: 0;
 }
 
 .testboxes {
